@@ -1,0 +1,87 @@
+ ]
+
+
+{
+ {
+      "login": "PayneJoe",
+      "name": "PayneJoe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6851723?v=4",
+      "profile": "https://github.com/PayneJoe",
+      "contributions": [
+        "code"
+
+
+
+      "login": "januszgrze",
+      "name": "janusz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82240624?v=4",
+      "profile": "https://github.com/januszgrze",
+      "contributions": [
+        "review"
+      ]
+  "projectName": "bitcoin-circle-stark",
+  "projectOwner": "Bitcoin-Wildlife-Sanctuary",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "victorkstarkware",
+      "name": "victorkstarkware",
+      "avatar_url": "https://avatars.githubusercontent.com/u/160594433?v=4",
+      "profile": "https://github.com/victorkstarkware",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "AbdelStark",
+      "name": "Abdel @ StarkWare ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45264458?v=4",
+      "profile": "http://starknet.io",
+      "contributions": [
+        "maintenance"
+      ]
+    },
+    {
+      "login": "dependabot",
+      "name": "Dependabot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27347476?v=4",
+      "profile": "https://github.com/features/security",
+      "contributions": [
+        "security"
+      ]
+    },
+    {
+      "login": "PayneJoe",
+      "name": "PayneJoe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6851723?v=4",
+      "profile": "https://github.com/PayneJoe",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "januszgrze",
+      "name": "janusz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82240624?v=4",
+      "profile": "https://github.com/januszgrze",
+      "contributions": [
+        "review"
+
+  ]
+    },
+    {
+      "login": "PayneJoe",
+      "name": "PayneJoe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6851723?v=4",
+      "profile": "https://github.com/PayneJoe",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
+}
