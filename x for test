@@ -71,15 +71,25 @@
       "profile": "https://github.com/PayneJoe",
       "contributions": [
         "code"
+name: ci
 
+on:
+  pull_request:
+    branches:
+      - main
+  pull_request_target:
+    types:
+      - labeled
 
-      "login": "januszgrze",
-      "name": "janusz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82240624?v=4",
-      "profile": "https://github.com/januszgrze",
-      "contributions": [
-        "review"
-
+jobs:
+  unittest:
+    if: |
+      (github.event_name == 'pull_request' && ! github.event.pull_request.head.repo.fork && github.event.pull_request.user.login != 'dependabot[bot]' && ! contains(github.event.pull_request.labels.*.name, 'safe-to-test')) ||
+      (github.event_name == 'pull_request_target' && contains(github.event.pull_request.labels.*.name, 'safe-to-test'))
+    uses: signoz/primus.workflows/.github/workflows/helm-unittest.yaml@main
+    secrets: inherit
+    with:
+      PRIMUS_REF: main
   ]
     },
     {
